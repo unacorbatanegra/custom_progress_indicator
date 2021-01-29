@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:graphx/graphx.dart';
 
-import 'progress_indicator.dart';
+import 'sprites/progress_indicator.dart';
+
 
 void main() {
   runApp(
@@ -18,23 +18,10 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Progress indicator'),
+        title: const Text('Progress indicator'),
       ),
       body: Center(
-        child: CustomProgressIndicator(),
-      ),
-    );
-  }
-}
-
-class CustomProgressIndicator extends StatelessWidget {
-  const CustomProgressIndicator({Key key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return SceneBuilderWidget(
-      builder: () => SceneController(
-        back: CustomProgressIndicatorSprite(),
+        child: CustomLoadingIndicator(),
       ),
     );
   }

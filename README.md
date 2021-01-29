@@ -1,16 +1,6 @@
-# circular_progress_indicator
+# Custom Loading Indicator
 
-A new Flutter project.
 
-## Getting Started
+Custom loading indicator madded with `GraphX` library.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![loading](https://user-images.githubusercontent.com/44511181/106319886-de373d80-6250-11eb-8b94-cecc794fcb6f.gif)
